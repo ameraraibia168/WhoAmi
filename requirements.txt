@@ -15,3 +15,4 @@ httplib
 re
 json
 logging
+webbrowser
