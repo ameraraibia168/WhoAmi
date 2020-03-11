@@ -1,1 +1,3 @@
 # WhoAmi
+
+bash install.sh
