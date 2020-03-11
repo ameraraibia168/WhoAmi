@@ -1,0 +1,17 @@
+requests
+mechanize
+cookielib
+subprocess
+commands
+shodan
+rarfile
+fcntl        
+struct   
+readline
+rlcompleter
+threading   
+StringIO 
+httplib  
+re
+json
+logging
