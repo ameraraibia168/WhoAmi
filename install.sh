@@ -61,8 +61,11 @@ if [ "$download" -eq "1"  ]; then
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
- rm -rf ../usr/share/WhoAmi-framework
- rm -rf ../bin/WhoAmi
+ rm -rf ~/../usr/share/WhoAmi-framework
+ rm -rf ~/../usr/bin/WhoAmi
+ rm -rf ~/../usr/bin/wafauxiliary
+ rm -rf ~/../usr/bin/wafconsole
+ rm -rf ~/../usr/bin/wafspam
  cp -r WhoAmi-framework ~/../usr/share/
  cp -r install/termux/* ~/../usr/bin
  chmod +x ~/../usr/bin/wafauxiliary
@@ -124,6 +127,9 @@ elif [ "$download" -eq "2"  ]; then
  sleep 0.4
  rm -rf /usr/share/WhoAmi-framework
  rm -rf /bin/WhoAmi
+ rm -rf /bin/wafauxiliary
+ rm -rf /bin/wafconsole
+ rm -rf /bin/wafspam
  cp -r WhoAmi-framework /usr/share/
  cp -r install/linux/* /bin
  chmod +x /bin/wafauxiliary	
