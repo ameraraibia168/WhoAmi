@@ -65,7 +65,9 @@ if [ "$download" -eq "1"  ]; then
  rm -rf ../bin/WhoAmi
  cp -r WhoAmi-framework ../usr/share/
  cp -r install/termux/* ../bin
- chmod +x ../bin/WhoAmi
+ chmod +x ../bin/wafauxiliary
+ chmod +x ../bin/wafconsole
+ chmod +x ../bin/wafspam
  pip2 install -r requirements.txt
  WhoAmi
 elif [ "$download" -eq "2"  ]; then
@@ -124,7 +126,9 @@ elif [ "$download" -eq "2"  ]; then
  rm -rf /bin/WhoAmi
  cp -r WhoAmi-framework /usr/share/
  cp -r install/linux/* /bin
- chmod +x /bin/WhoAmi	
+ chmod +x /bin/wafauxiliary	
+ chmod +x /bin/wafconsole
+ chmod +x /bin/wafspam
  pip2 install -r requirements.txt
  WhoAmi
 else :
