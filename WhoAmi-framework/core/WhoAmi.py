@@ -1388,9 +1388,9 @@ def help():
  print "    show payloads               Show Injectors(Shellcode,dll,so etc..)     "
  print "    show wireless               show Wireless(attack,oin,wps..)"
  print "    show auxiliary              Show Encoders(Py,Ruby,PHP,Shellcode etc..)     "
- print "    show communication          "
- print "    show amerr"
- print "    show span "
+ print "    show communication          Show Communication"
+ print "    show amerr                  Show My Info"
+ print "    show span                   Show Spam"
  print "    exit                        Exit            " 
  print ""
 
