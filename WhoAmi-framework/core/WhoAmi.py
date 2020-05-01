@@ -6374,6 +6374,6 @@ def starting():
   print ""
   time.sleep(3)
   print ""
-#starting()
+starting()
 banner()
 WhoAmi()
