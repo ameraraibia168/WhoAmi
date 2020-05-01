@@ -63,11 +63,11 @@ if [ "$download" -eq "1"  ]; then
  sleep 0.4
  rm -rf ../usr/share/WhoAmi-framework
  rm -rf ../bin/WhoAmi
- cp -r WhoAmi-framework ../usr/share/
- cp -r install/termux/* ../bin
- chmod +x ../bin/wafauxiliary
- chmod +x ../bin/wafconsole
- chmod +x ../bin/wafspam
+ cp -r WhoAmi-framework ~/../usr/share/
+ cp -r install/termux/* ~/../usr/bin
+ chmod +x ~/../usr/bin/wafauxiliary
+ chmod +x ~/../usr/bin/wafconsole
+ chmod +x ~/../usr/bin/wafspam
  pip2 install -r requirements.txt
  WhoAmi
 elif [ "$download" -eq "2"  ]; then
