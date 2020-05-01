@@ -68,6 +68,7 @@ if [ "$download" -eq "1"  ]; then
  rm -rf ~/../usr/bin/wafspam
  cp -r WhoAmi-framework ~/../usr/share/
  cp -r install/termux/* ~/../usr/bin
+ chmod +x ~/../usr/bin/WhoAmi
  chmod +x ~/../usr/bin/wafauxiliary
  chmod +x ~/../usr/bin/wafconsole
  chmod +x ~/../usr/bin/wafspam
