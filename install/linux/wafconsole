@@ -1,0 +1,3 @@
+#!/usr/bin/python2
+import os
+os.system('python2 /usr/share/WhoAmi-framework/core/WhoAmi.py')
